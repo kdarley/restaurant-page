@@ -1,3 +1,4 @@
+import logo from './images/darley-logo-white.svg'
 function createHeader() {
     const header = document.createElement('div');
 
@@ -6,7 +7,7 @@ function createHeader() {
     // add image
     const image = document.createElement('img');
     image.classList.add("logo")
-    image.setAttribute("src", "images/darley-logo-white.svg")
+    image.setAttribute("src", logo)
     header.appendChild(image)
 
     // add buttons

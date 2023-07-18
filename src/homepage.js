@@ -1,3 +1,6 @@
+
+import hero from './images/ff.png'
+
 function createMain(){
     const main = document.createElement("div")
     main.classList.add("main")
@@ -24,7 +27,7 @@ function createMain(){
 
     const heroImage = document.createElement("img")
     heroImage.classList.add("homepage-hero-image")
-    heroImage.setAttribute("src", "images/ff.png")
+    heroImage.setAttribute("src", hero)
 
     heroImageDiv.appendChild(heroImage)
     main.appendChild(heroImageDiv)

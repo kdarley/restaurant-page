@@ -1,13 +1,10 @@
-console.log("This biz work?");
-console.log("No way it works this time.")
-console.log("live or nah?")
+import './styles.css';
+
 
 // another JS file
 import { createMain } from './homepage.js';
 import { createHeader } from './header.js';
 import { createFooter } from './footer.js';
-
-
 
 function displayHome() {
     const content = document.querySelector("div#content")
