@@ -1,0 +1,22 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A restaurant page created after learning about webpack.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdarley/restaurant-page.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kdarley/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/kdarley/restaurant-page#readme",
+  "devDependencies": {
+    "webpack-cli": "^5.1.4"
+  }
+}
