@@ -1,7 +1,6 @@
-
 import hero from './images/ff.png'
 
-function createMain(){
+function createHomepage(){
     const main = document.createElement("div")
     main.classList.add("main")
 
@@ -72,4 +71,4 @@ function createMain(){
     return main
 }
 
-export {createMain};
+export {createHomepage};

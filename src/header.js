@@ -16,14 +16,17 @@ function createHeader() {
     
     const homeButton = document.createElement('button')
     homeButton.textContent = "Home"
+    homeButton.classList.add("home-button")
     headerButtonsDiv.appendChild(homeButton)
 
     const menuButton = document.createElement('button')
     menuButton.textContent = "Menu"
+    menuButton.classList.add("menu-button")
     headerButtonsDiv.appendChild(menuButton)
 
     const contactButton = document.createElement('button')
     contactButton.textContent = "Contact"
+    contactButton.classList.add("contact-button")
     headerButtonsDiv.appendChild(contactButton)
 
     header.appendChild(headerButtonsDiv)
